@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #bc3cd8;
+
+  --bg: #010208;
+
+  --primary-gradient: var(
+    --primary,
+    linear-gradient(134deg, #bc3cd8 0%, #c54b8c 100%)
+  );
+
+  --bg-gradient: var(
+    --bg,
+    linear-gradient(
+      180deg,
+      #010208 16.39%,
+      #010206 20.51%,
+      #040008 24.79%,
+      #010101 30.46%,
+      #010101 34.11%,
+      #010101 36.21%,
+      #010101 100%
+    )
+  );
+
+  --neutral-200: #e3e4e6;
+  --neutral-400: #e3e4e68c;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg-gradient);
+}
