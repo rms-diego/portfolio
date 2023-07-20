@@ -15,7 +15,9 @@ export function Header() {
 
   return (
     <header className={styles.headerContainer}>
-      <h1>Diego Ramos</h1>
+      <Link href="/">
+        <h1>Diego Ramos</h1>
+      </Link>
 
       <nav className={styles.navContainer}>
         <button className={styles.buttonMobile} onClick={toggleMenu}>
