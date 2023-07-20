@@ -35,7 +35,7 @@ export function Header() {
           </li>
 
           <li>
-            <Link href="#" onClick={() => toggleMenu()}>
+            <Link href="/tecnologias" onClick={() => toggleMenu()}>
               Tecnologias
             </Link>
           </li>
