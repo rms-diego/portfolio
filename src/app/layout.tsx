@@ -1,5 +1,6 @@
 import "./globals.scss";
 
+import { Header } from "@/components/Header";
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 
@@ -14,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={workSans.className}>{children}</body>
+      <body className={workSans.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
