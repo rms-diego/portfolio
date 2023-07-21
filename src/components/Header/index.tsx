@@ -41,7 +41,7 @@ export function Header() {
           </li>
 
           <li>
-            <Link href="#" onClick={() => toggleMenu()}>
+            <Link href="/projetos" onClick={() => toggleMenu()}>
               Projetos
             </Link>
           </li>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./style.module.scss";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -11,6 +11,17 @@ export function Footer() {
 
       <Link href="https://www.linkedin.com/in/diego-rbrito/" target="_blank">
         <FaLinkedin width={200} height={200} />
+      </Link>
+
+      <Link
+        href="mailto:diegorbrito9@gmail.com?Subject=olaMundo"
+        target="_blank"
+      >
+        <FaEnvelope width={200} height={200} />
+      </Link>
+
+      <Link href="tel:+55(71)993804648" target="_blank">
+        <FaPhone width={200} height={200} />
       </Link>
     </footer>
   );
