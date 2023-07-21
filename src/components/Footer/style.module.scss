@@ -14,5 +14,11 @@
   svg {
     font-size: 2.8rem;
     color: var(--neutral-200);
+
+    &:hover {
+      color: var(--primary);
+      transition: 400ms;
+      opacity: 0.7;
+    }
   }
 }

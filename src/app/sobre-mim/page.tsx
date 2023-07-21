@@ -22,9 +22,10 @@ export default function About() {
         <h2>Bem vindo</h2>
 
         <p>
-          I am a UI/UX designer who is passionate about creating beautiful and
-          joyful digital experiences. Besides design, I love music, games and
-          travelling.
+          Sou desenvolvedor full stack, apaixonado por aprender e por
+          tecnologia, estar procurando novos desafios são o que me motiva,
+          principalmente se for necessário aprender algo novo para
+          solucioná-los.
         </p>
       </div>
     </main>
