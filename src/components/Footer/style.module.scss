@@ -1,0 +1,18 @@
+.footerContainer {
+  background-color: var(--bg);
+  vertical-align: middle;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 2rem;
+
+  svg {
+    font-size: 2.8rem;
+    color: var(--neutral-200);
+  }
+}

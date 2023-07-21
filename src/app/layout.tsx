@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import "./globals.scss";
 
 import { Header } from "@/components/Header";
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={workSans.className}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
