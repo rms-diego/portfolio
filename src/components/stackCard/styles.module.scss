@@ -19,3 +19,9 @@
     background-color: var(--primary);
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .cardContainer {
+    width: 6.2rem;
+  }
+}

@@ -1,5 +1,11 @@
 import Image from "next/image";
+import { Metadata } from "next";
+
 import styles from "./styles.module.scss";
+
+export const metadata: Metadata = {
+  title: "Sobre mim",
+};
 
 export default function About() {
   return (
