@@ -1,6 +1,5 @@
 .mainContainer {
-  height: 85vh;
-  padding: 6rem 6.6rem;
+  min-height: 85vh;
 
   display: flex;
   align-items: center;
@@ -16,10 +15,10 @@
   .mainContainer {
     flex-direction: column;
     width: 100vw;
+    padding-bottom: 6rem;
   }
 
   .mainContainerContent {
-    text-align: justify;
     width: 80vw;
   }
 
@@ -43,6 +42,6 @@
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
