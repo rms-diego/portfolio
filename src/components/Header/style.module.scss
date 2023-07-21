@@ -97,6 +97,7 @@
     position: absolute;
     right: 0;
     top: 200%;
+    z-index: 1000;
 
     animation: slideMenu 500ms ease-in-out forwards;
     // animation: 200ms;

@@ -16,7 +16,9 @@ export const metadata: Metadata = {
 
 export default function Techs() {
   return (
-    <main className={styles.mainContainer}>
+    <main
+      className={`${styles.mainContainer} animate__animated animate__fadeInDown`}
+    >
       <h2>Tecnologias</h2>
       <div className={styles.stacksContainer}>
         <StackCard imageRef={html} stackName="HTML 5" />

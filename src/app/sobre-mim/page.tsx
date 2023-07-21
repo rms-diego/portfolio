@@ -9,7 +9,9 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className={styles.mainContainer}>
+    <main
+      className={`${styles.mainContainer} animate__animated animate__flash`}
+    >
       <Image
         src="/foto-perfil.jpg"
         alt="Foto de perfil"

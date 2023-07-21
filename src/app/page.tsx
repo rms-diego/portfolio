@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className={styles.mainContainer}>
-      <h2>
+      <h2 className="animate__animated animate__backInDown">
         Sou um <span>Desenvolvedor fullstack</span> especializado no{" "}
         <span>Back end.</span>
       </h2>
