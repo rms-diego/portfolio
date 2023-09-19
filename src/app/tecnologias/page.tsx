@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 import styles from "./styles.module.scss";
-import { StackCard } from "@/components/stackCard";
+import { StackCard } from "@/components/StackCard";
 
 import html from "@/assets/html.svg";
 import css from "@/assets/css.svg";
