@@ -22,7 +22,9 @@ export default async function Projetos() {
 
   return (
     <main className={styles.mainContainer}>
-      <section className={styles.contentContainer}>
+      <section
+        className={`${styles.contentContainer}  animate__animated animate__fadeInUp`}
+      >
         {repos.map((project, index) => (
           <ProjectsCards
             key={index}
