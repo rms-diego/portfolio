@@ -51,12 +51,6 @@ export function Header() {
               Sobre mim
             </Link>
           </li>
-
-          <li>
-            <Link href="/contato" onClick={() => toggleMenu()}>
-              Contato
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>
