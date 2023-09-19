@@ -21,13 +21,13 @@ export default function Techs() {
     >
       <h2>Tecnologias</h2>
       <div className={styles.stacksContainer}>
-        <StackCard imageRef={html} stackName="HTML 5" />
+        <StackCard imageRef={html} stackName="HTML" />
 
-        <StackCard imageRef={css} stackName="CSS 4" />
+        <StackCard imageRef={css} stackName="Css" />
 
-        <StackCard imageRef={sass} stackName="SASS" />
+        <StackCard imageRef={sass} stackName="Sass" />
 
-        <StackCard imageRef={react} stackName="react" />
+        <StackCard imageRef={react} stackName="React" />
 
         <StackCard imageRef={next} stackName="Next.js" />
 
