@@ -11,12 +11,11 @@ type Props = {
 
 export function ProjectsCards({ title, imageLink, alt, repoLink }: Props) {
   return (
-    <div className={styles.card}>
-      <p>{title}</p>
-      <Image src={imageLink} alt={alt} width={250} height={150} />
-      <Link href={repoLink} target="_blank">
-        Link
-      </Link>
-    </div>
+    <Link href={repoLink} target="_blank">
+      <div className={styles.card}>
+        <p>{title}</p>
+        <Image src={imageLink} alt={alt} width={250} height={150} />
+      </div>
+    </Link>
   );
 }
