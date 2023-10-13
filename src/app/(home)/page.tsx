@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className={styles.mainContainer}>
       <h2 className="animate__animated animate__backInDown">
-        Sou um <span>Desenvolvedor fullstack</span>
+        Sou um <span>Desenvolvedor fullstack</span>. Especializado em backend.
       </h2>
     </main>
   );

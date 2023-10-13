@@ -1,11 +1,11 @@
-"use client";
-import { useState } from "react";
+'use client';
+import { useState } from 'react';
 
-import Link from "next/link";
-import styles from "./style.module.scss";
+import Link from 'next/link';
+import styles from './style.module.scss';
 
-import { FaBars } from "react-icons/fa";
-import { useWidthHook } from "@/hook/useWidthHook";
+import { FaBars } from 'react-icons/fa';
+import { useWidthHook } from '@/hook/useWidthHook';
 
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -25,7 +25,7 @@ export function Header() {
         </button>
         <ul
           className={`${
-            openMenu && windowSize < 1199 ? styles.active : styles.ulContainer
+            openMenu && windowSize < 769 ? styles.active : styles.ulContainer
           }`}
         >
           <li>
